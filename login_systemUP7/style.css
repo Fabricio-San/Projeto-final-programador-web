@@ -1,0 +1,541 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*Meu estilo*/
+
+.main-wrapper {
+    overflow: auto;
+    margin: 0 auto;
+    width: 1000px;
+    padding-bottom:100px ;
+}
+a {
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(255, 247, 247);
+}
+
+
+header nav {
+    width: 100%;
+    height: 60px;
+    background-color: #000;
+}
+
+header nav ul {
+    float: left;
+}
+
+header nav ul li {
+    float: left;
+    list-style: none;
+}
+
+header nav ul li a {
+    font-family: arial;
+    font-size: 16px;
+    color: #fff;
+    line-height: 63px;
+}
+
+header .nav-login {
+   float: right;
+}
+
+header .nav-login form {
+    float: left;
+    padding-top: 15px;
+}
+
+header .nav-login form input {
+    float: left;
+    width: 140px;
+    height: 30px;
+    padding: 0px 10px;
+    margin-right: 10px;
+    border: none;
+    background-color: #ccc;
+    font-family: arial;
+    font-size: 14px;
+    color:#111;
+    line-height: 30px;
+}
+
+header .nav-login form button {
+    float: left;
+    width: 60px;
+    height: 30px;
+    margin-right: 10px;
+    border: none;
+    background-color: #f3f3f3;
+    font-family: arial;
+    font-size: 14px;
+    color:#111;
+    cursor: pointer;
+}
+
+header .nav-login form button {
+    float: left;
+    width: 60px;
+    height: 30px;
+    margin-right: 10px;
+    border: none;
+    background-color: #f3f3f3;
+    font-family: arial;
+    font-size: 14px;
+    color:#111;
+    cursor: pointer;
+}
+
+header .nav-login form button:hover {
+    background-color: #ccc;
+}
+
+header .nav-login a {
+    display: block;
+    width: 72px;
+    height: 60px;
+    border: none;
+    float: left;
+    background-color: #000;
+    font-family: arial;
+    font-size: 16px;
+    color: #fff;
+    line-height: 63px;
+    cursor: pointer;
+}
+
+.main-container {
+    padding-top: 40px;
+}
+
+.main-container h2{
+    font-family: arial;
+    font-size: 40px;
+    color: #111;
+    line-height: 50px;
+    text-align: center;
+}
+
+/*signup.php*/
+
+.signup-form{
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 30px;  
+}
+
+.signup-form input{
+    width: 90%;
+    height: 40px;
+    padding: 0px 5%;
+    margin-bottom: 4px;
+    border: none;
+    background-color: #f3f3f3;
+    font-family: arial;
+    font-size: 16px;
+    color:#111;
+    line-height: 40px;  
+}
+
+.signup-form button{
+    display: block;
+    margin: auto;
+    width: 30%;
+    height: 40px;
+    border: none;
+    background-color: #222;
+    font-family: arial;
+    font-size: 16px;
+    color:#fff;
+    cursor: pointer;
+}
+
+.signup-form button:hover {
+    background-color: #111;
+    
+}
+
+/*Tarefas*/
+
+.heading{
+    font-family: 'Oxygen', sans-serif;
+    width: 50%;
+    margin: 159px 300px 70px;
+    padding: 25px 35px;
+	text-align: center;
+	background: rgb(7, 7, 7);
+	color: rgb(243, 249, 252);;
+	border: 2px solid rgb(168, 194, 216);
+    border-radius: 20px;
+    font-size: 50px;
+}
+
+.formtd { 
+    width: 50%; 
+	margin: 25px 330px; 
+	border-radius: 5px; 
+	padding: 10px;
+	background: rgb(3, 3, 3);
+	border: 1px solid  rgb(167, 167, 233);
+}
+
+.task_input {
+	width: 75%;
+	height: 15px; 
+	padding: 10px;
+    border: 2px solid rgb(16, 134, 236);
+    font-family: 'Oxygen', sans-serif;;
+    
+}
+
+.add_btn {
+    width: 95px;
+	height: 50px;
+	background: rgb(240, 251, 251);
+	color: 	rgb(32, 32, 32);
+	border: 2px solid rgb(202, 255, 95);
+	border-radius: 5px; 
+    padding: 5px 20px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+}
+
+.add_btn:hover {
+    background: rgb(194, 247, 72);
+}
+
+/* Não esqueça da tabela */
+table {
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+tr {
+	border-bottom: 1px solid #cbcbcb;
+}
+
+th {
+    font-family: 'Oxygen', sans-serif;
+	font-size: 19px;
+	color: rgb(255, 255, 255);
+}
+
+th, td{
+    font-family: 'Oxygen', sans-serif;
+    color: rgb(255, 255, 255);
+	border: none;
+    height: 30px;
+    padding: 2px;
+}
+
+
+.task {
+	text-align: left;
+}
+
+.delete{
+	text-align: center;
+}
+.delete a{
+	color: white;
+	background: #a52a2a;
+	padding: 1px 6px;
+	border-radius: 3px;
+	text-decoration: none;
+}
+
+.edit_btn {
+    font-size: 12px;
+    width: 75px;
+	height: 40px;
+	background: rgb(90, 195, 88);
+	color: 	rgb(241, 255, 214);
+	border: 2px solid rgb(202, 255, 95);
+	border-radius: 5px; 
+	padding: 5px 0px 5px;
+}
+
+.del_btn {
+    font-size: 12px;
+    width: 75px;
+	height: 40px;
+	background: rgb(90, 195, 88);
+	color: 	rgb(241, 255, 214);
+	border: 2px solid rgb(202, 255, 95);
+	border-radius: 5px; 
+	padding: 5px 20px;
+}
+
+.pomodoro {
+    margin: 10px 0px 55px 95px;
+}
+
+.dicastitle{
+    font-family: 'Oxygen', sans-serif;   
+}
+
+.dicas {
+   border-top: 1px solid rgb(0, 255, 0);
+   line-height: 36px;
+   padding: 1.15em;
+   font-family: 'Oxygen', sans-serif;
+   box-sizing: border-box;
+   margin: -9px;
+   display: inline-flex;
+   text-align: justify!important;
+   background-color: rgb(207, 188, 236);
+  }
+
+.dicas.dicas1 {
+  display: inline-flex;
+  background-color: inline-flex;
+  display: block;
+  justify-content: center;
+  display: block;
+}
+.dicas.dicas1.dicas2 {
+    
+    display: inline-flex;
+      float: right;   
+      display: block;
+  }
+
+.dicas.dicas1.dicas2.dicas3{ 
+     display: inline-flex;
+      display: block;
+      float: right;
+      
+  }
+
+.f {
+    background-color: #000;
+    position: relative;
+    height: 100px;
+    margin-top: -100px;
+    clear: both;
+
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+  
+  .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  
+  .fa-skype {
+    background: #00aff0;
+    color: white;
+  }
+  
+  .fa-android {
+    background: #a4c639;
+    color: white;
+  }
+  
+  .fa-dribbble {
+    background: #ea4c89;
+    color: white;
+  }
+  
+  .fa-vimeo {
+    background: #45bbff;
+    color: white;
+  }
+  
+  .fa-tumblr {
+    background: #2c4762;
+    color: white;
+  }
+  
+  .fa-vine {
+    background: #00b489;
+    color: white;
+  }
+  
+  .fa-foursquare {
+    background: #45bbff;
+    color: white;
+  }
+  
+  .fa-stumbleupon {
+    background: #eb4924;
+    color: white;
+  }
+  
+  .fa-flickr {
+    background: #f40083;
+    color: white;
+  }
+  
+  .fa-yahoo {
+    background: #430297;
+    color: white;
+  }
+  
+  .fa-soundcloud {
+    background: #ff5500;
+    color: white;
+  }
+  
+  .fa-reddit {
+    background: #ff5700;
+    color: white;
+  }
+  
+  .fa-rss {
+    background: #ff6600;
+    color: white;
+  }
